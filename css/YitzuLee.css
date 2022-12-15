@@ -1,0 +1,114 @@
+/*Yitzu Lee.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans:wght@700&display=swap');
+
+.head {
+	   font-family: 'Abril Fatface', cursive;
+       background-color:#265A6C ;
+}
+
+.head h3{
+         color:white ;
+}
+
+
+.navi {
+       background-color: #265A6C;
+       overflow: hidden;
+}
+
+.navi a {
+         float: right;
+         color: #FFFFFF;
+         font-family: 'Abril Fatface', cursive;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         font-size: 20px;
+}
+
+.navi a:hover {
+               background-color:#53DFDB;
+               color:black;
+}
+
+.content p{
+	       margin-top:100px;
+
+
+}
+
+.content p{
+	       text-align:center;
+		   font-family: 'Abril Fatface', cursive;
+		   font-size:40px;
+		   letter-spacing:1px;
+		   color:#265A6C;
+		   text-shadow: 2px 2px #D7E3E2;
+		   
+}
+
+.content h4{
+	       text-align:center;
+		   line-height:30px;
+		   font-size:20px;
+		   padding-left:150px;
+		   padding-right:150px;
+		   text-decoration:underline 3px dotted #D7E3E2;
+		   
+}
+
+.card { 
+       margin-top:100px;
+	   margin-left:10px;
+	   margin-right:10px;
+       border-left: 3px solid  #D7E3E2;
+	   border-top-style: none;
+       border-right-style: none;
+       border-bottom-style: none;
+	   padding:10px;
+	   background-image: linear-gradient(to right, #fff, #D7E3E2);
+
+}
+
+.card-img-top{
+              border-radius:50%;
+		      width:25%;
+		      height:auto;
+			  box-shadow: 5px 5px #53DFDB;
+
+}
+
+.card-title{
+	        color:#265A6C;
+			margin-bottom:20px;
+	      
+}
+
+.card-text{
+	        color:#265A6C;
+			padding-left:30px;
+	      
+}
+
+ul{
+   color:#265A6C;
+   
+	      
+}
+
+.btn-info{
+	       background-color:#53DFDB;
+		   border-color:#53DFDB;
+		   color:#fff;
+}
+
+
+.footer{
+	    text-align:center;
+		line-height:20px;
+	    color:white;
+	    margin-top:100px;
+	    padding:50px;
+	    background-color:#265A6C;
+}

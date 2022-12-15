@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans:wght@700&display=swap');
+
+
+.head {
+	   font-family: 'Abril Fatface', cursive;
+       background-color:#265A6C ;
+}
+
+.head h1,h3{
+         color:white ;
+}
+
+.navi {
+       background-color: #265A6C;
+       overflow: hidden;
+}
+
+.navi a {
+         float: right;
+         color: #FFFFFF;
+         font-family: 'Abril Fatface', cursive;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         font-size: 20px;
+}
+
+.navi a:hover {
+               background-color:#53DFDB;
+               color:black;
+}
+
+.slides-container{
+	              padding:10px;
+	              width:100%;
+                  height:auto;
+				  display:flex;
+				  background-color:#fff;
+				  align-items:center;
+				  justify-content:center;
+				  
+				  
+}
+
+
+.swiper{
+	    width:100%;
+        height:fit-content;
+}
+
+.swiper-slide img{
+	              width:100%;
+				  
+	
+}
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+	                                                    color:#fff;
+														opacity: 30%;
+}
+.swiper .swiper-pagination{
+	                        color:#fff;
+                            opacity: 30%;
+}
+
+.Ourmovie {
+	       margin-top:30px;
+		   margin-bottom:30px;
+	       background-color:#fff;
+}
+.Ourmovie h3{
+	        font-family: 'Abril Fatface', cursive;
+	        text-align:center;
+            color:#265A6C;
+	        font-size:60px;
+}
+
+.content P {
+	        font-family: 'Abril Fatface', cursive;
+	        text-align:center;
+            color:#265A6C;
+	        font-size:48px;
+}
+
+.content h3 {
+	        font-family: 'Abril Fatface', cursive;
+	        text-align:center;
+            color:#265A6C;
+}
+
+.content h4 {
+	        font-family: 'Abril Fatface';
+			text-align:center;
+}
+
+.content h6 {
+	        font-family: 'Abril Fatface';
+}
+
+.content img { 
+              width: 100%;
+              height: auto;
+			  padding:10px;
+}
+
+.content button {
+	             margin-top:50px;
+                 margin-left:50%;
+	             background-color:#53DFDB;
+                 border:none;
+				 border-radius: 5px;
+                 width:200px;
+                 height:50px;
+                 font-family: 'Abril Fatface', cursive;				 
+                 font-size:24px;
+
+}
+
+.content button:hover {
+	                   background-color:#265A6C;
+				       color:white;
+
+
+}
+
+.Schedule-container{
+	                display:flex;
+                    justify-content:center;					
+}
+
+.Schedule button {
+
+	              margin-top:30px;
+	              background-color:#265A6C;
+				  color:#fff;
+                  border:none;
+				  border-radius: 50px;
+                  width:200px;
+                  height:50px;
+                  font-family: 'Abril Fatface', cursive;				 
+                  font-size:24px;
+				  justify-content:center;
+
+}
+
+.Schedule button:hover {
+	                   background-color:#53DFDB;
+				       color:black;
+					   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.location{
+		  background-color:white;
+		  border:solid 20px white;
+		  margin-top:80px;   
+	      margin-bottom:200px;
+          padding-left:50px;
+          padding-right:30px;			  
+}
+
+.location img {float:left;
+               margin-right:30px;
+               width: 40%;
+               height: 50%;
+}
+.location h3{
+			 letter-spacing:3px;
+	         font-size:28px;
+			 font-family: 'Abril Fatface', cursive;
+}
+
+.location p{ margin-top:-20px;
+	         font-size:28px;
+			 letter-spacing:1px;
+			 font-family: 'Abril Fatface', cursive;
+}
+
+.location ul{
+	         margin-top:-10px;
+	         font-size:20px;
+			 letter-spacing:1px;
+			 line-height:40px;
+			 text-decoration: underline;
+			 font-family: 'Abril Fatface', cursive;
+}
+
+.movie1-container01{
+	              margin-top:50px;
+                  padding-left:50px;
+}
+
+.movie1-item01 img{
+	               margin-right:50px;
+	               float:left;    
+                   max-width:40%;
+                   height: auto;
+}
+
+.movie1-item02 {             
+
+}
+
+.movie1-item02 h2{
+	              font-size:48px;
+				  color:#265A6C;
+                  letter-spacing:3px;
+                  font-family: 'Abril Fatface', cursive;         
+
+}
+
+.movie1-item02 #Storyline1,#Director1,#MainStars1,#video1{
+	                                           font-size:24px;
+						                       color:#53DFDB;
+                                               letter-spacing:1px;
+                                               font-family: 'Abril Fatface', cursive;     
+                                               line-height:10px;
+											   text-decoration:underline;										   
+
+}
+
+.movie1-item02 #description1,#diectror1,#stars1{
+	                                         font-size:18px;
+                                             letter-spacing:1px;
+}
+
+
+
+
+
+.movie1-item04 #timetable1{
+	                      font-size:24px;
+						  color:#53DFDB;
+                          letter-spacing:1px;
+                          font-family: 'Abril Fatface', cursive; 
+						  text-decoration:underline;	  								  
+}
+
+.movie1-item04 table, th, td {font-size:24px;
+                              border-bottom: 1px solid black;
+                              border-collapse: collapse;
+							 
+}
+
+.movie1-item04 th {
+                   background-color: #D7E3E2;
+}
+
+
+.movie1-item04 .day02 {text-align:center;
+                     color: #265A6C;
+}
+
+.movie1-item04 td {
+                   color: #D7E3E2;
+}
+
+.movie1-item05{margin-top:50px;
+}
+
+.gallery{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.movie2-container02{
+	                margin-top:400px;
+                    padding-left:50px;
+}
+
+.movie2-item01 img{
+	               margin-right:50px;
+	               float:left;    
+                   max-width:40%;
+                   height: auto;
+}
+
+.movie2-item02 {             
+
+}
+
+.movie2-item02 h2{
+	              font-size:48px;
+				  color:#265A6C;
+                  letter-spacing:3px;
+                  font-family: 'Abril Fatface', cursive;         
+
+}
+
+.movie2-item02 #Storyline2,#Director2,#MainStars2,#video2{
+	                                           font-size:24px;
+						                       color:#53DFDB;
+                                               letter-spacing:1px;
+                                               font-family: 'Abril Fatface', cursive;     
+                                               line-height:10px;
+											   text-decoration:underline;										   
+
+}
+
+.movie2-item02 #description2,#diectror2,#stars2{
+	                                         font-size:18px;
+                                             letter-spacing:1px;
+}
+
+
+
+
+
+.movie2-item04 #timetable2{
+	                      font-size:24px;
+						  color:#53DFDB;
+                          letter-spacing:1px;
+                          font-family: 'Abril Fatface', cursive; 
+						  text-decoration:underline;	  								  
+}
+
+.movie2-item04 table, th, td {font-size:24px;
+                              border-bottom: 1px solid black;
+                              border-collapse: collapse;
+							 
+}
+
+.movie2-item04 th {
+                   background-color: #D7E3E2;
+}
+
+
+.movie2-item04 .day03 {text-align:center;
+                     color: #265A6C;
+}
+
+.movie2-item04 td {
+                   color: #D7E3E2;
+}
+
+.movie2-item05{margin-top:80px;
+}
+
+.gallery{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.movie3-container03{
+	                margin-top:400px;
+					margin-bottom:300px;
+                    padding-left:50px;
+}
+
+.movie3-item01 img{
+	               margin-right:50px;
+	               float:left;    
+                   max-width:40%;
+                   height: auto;
+}
+
+.movie3-item02 {             
+
+}
+
+.movie3-item02 h2{
+	              font-size:48px;
+				  color:#265A6C;
+                  letter-spacing:3px;
+                  font-family: 'Abril Fatface', cursive;         
+
+}
+
+.movie3-item02 #Storyline3,#Director3,#MainStars3,#video3{
+	                                           font-size:24px;
+						                       color:#53DFDB;
+                                               letter-spacing:1px;
+                                               font-family: 'Abril Fatface', cursive;     
+                                               line-height:10px;
+											   text-decoration:underline;										   
+
+}
+
+.movie3-item02 #description3,#diectror3,#stars3{
+	                                         font-size:18px;
+                                             letter-spacing:1px;
+}
+
+
+
+
+
+.movie3-item04 #timetable3{
+	                      font-size:24px;
+						  color:#53DFDB;
+                          letter-spacing:1px;
+                          font-family: 'Abril Fatface', cursive; 
+						  text-decoration:underline;	  								  
+}
+
+.movie3-item04 table, th, td {font-size:24px;
+                              border-bottom: 1px solid black;
+                              border-collapse: collapse;
+							 
+}
+
+.movie3-item04 th {
+                   background-color: #D7E3E2;
+}
+
+
+.movie3-item04 .day04 {text-align:center;
+                     color: #265A6C;
+					 
+}
+
+.movie3-item04 td {
+                   color: #D7E3E2;
+				   
+
+}
+
+.movie3-item05{margin-top:50px;
+}
+
+.gallery{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.footer{
+	    text-align:center;
+		line-height:20px;
+	    color:white;
+	    margin-top:100px;
+	    padding:50px;
+	    background-color:#265A6C;
+}
+
+#msi {			            
+			border-radius: 5px;
+            width:100px;
+            height:40px;
+            font-family: 'Abril Fatface', cursive;				 
+            font-size:18px;				
+			background-color:#53DFDB;	
+			color:black;
+			border:none;	
+}
+#msi:hover{
+	        background-color:#265A6C;
+		    color:white;	
+}
+#mss {			            
+			border-radius: 5px;
+            width:150px;
+            height:40px;
+            font-family: 'Abril Fatface', cursive;				 
+            font-size:18px;				
+			background-color:#53DFDB;	
+			color:black;
+			border:none;	
+}
+#mss:hover{
+	        background-color:#265A6C;
+		    color:white;	
+}
+
+#validation{
+			margin-top:10%;
+            margin-left:0%;
+	        background-color:#53DFDB;
+            border:none;
+			border-radius: 5px;
+            width:150px;
+            height:40px;
+            font-family: 'Abril Fatface', cursive;				 
+            font-size:18px;			
+}
+#validation:hover{
+	        background-color:#265A6C;
+		    color:white;
+}
+#mid{
+	text-align: center;
+}
+#mform{
+	display: inline-block;
+}
+
+#form{
+	margin-left:30%;
+}
+
+.my-custom-row {
+			font-size:20px;
+			font-family: 'Abril Fatface', cursive;
+	        text-align:center;
+            color:#265A6C;
+}
+.my-custom-row button{
+			background-color:#53DFDB;	
+			color:black;
+			border:none;
+}
+.my-custom-row button:hover{
+	        background-color:#265A6C;
+		    color:white;
+			
+}
+.content_mShip {
+			font-size:20px;
+			font-family: 'Abril Fatface', cursive;
+	        text-align:center;
+            color:#265A6C;			
+			border-collapse:collapse;		
+}
+
+.foot {
+	   font-family: 'Abril Fatface', cursive;
+       background-color:#265A6C ;
+}
+
+.foot p {
+	   color:white ;
+}
+
+.foot li {
+	   color:white ;
+}
+
+.foot a {
+	   color:white ;
+}
+
+.foot a:hover {
+               background-color:#53DFDB;
+               color:black;
+}
